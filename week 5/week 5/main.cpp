@@ -6,9 +6,16 @@
 //
 
 #include <iostream>
+using namespace std;
+#include <cmath>
 
 int main() {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    cout << abs(-1) << endl;
+    
+    cout << sqrt(6) << endl;
+    cout << sqrt(9) << endl;
+    cout << pow(3, 2) << endl;
+    
     return 0;
 }
